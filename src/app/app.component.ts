@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Test} from './testgit';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'app works! Yeaaaaaaaaaaaaaaaaaaah';
+  test = Test;
+  
 }
